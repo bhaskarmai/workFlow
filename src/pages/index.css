@@ -1,0 +1,43 @@
+.layoutflow {
+    flex-grow: 1;
+    position: relative;
+    height: 100%;
+  }
+  
+  .layoutflow .controls {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 10;
+    font-size: 12px;
+  }
+  
+  .layoutflow .controls button:first-child {
+    margin-right: 10px;
+  }
+  
+  .react-flow__node-default{
+    font-size: 10px !important;
+    width: 200px !important;
+    padding: 5px 10px 0px !important;
+    text-align: left !important;
+  }
+  .badges{
+    text-align: right;
+    float: right;
+    background: #ff4810;
+    border-radius: 50%;
+    color: #fff;
+    padding: 1px;
+    position: relative;
+    top: -23px;
+    left: 10px;
+  }
+  .tooltip {
+
+    visibility: hidden;  /* Or display: none, depending on how you want it to behave */
+  }
+  
+  .tooltip-on-hover:hover + .tooltip {    /* Uses the adjacent sibling selector */
+    visibility: visible;  /* Or display: block */
+  }

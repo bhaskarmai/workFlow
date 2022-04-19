@@ -1,0 +1,602 @@
+@media (min-width: 1440px) and (max-width: 8000px) {
+.container {
+	width : 1300px;
+}
+}
+@media (min-width: 1200px) and (max-width: 1439px) {
+.midContentArea {
+	width : 716px;
+}
+.midContentInner {
+	margin : 40px auto;
+	width : 100%;
+	max-width : 630px;
+}
+.boxcol {
+	width : 24%;
+}
+
+
+.boxW75 {
+  width: 68%;
+  float: left;
+}
+.boxW25 {
+  width: 30%;
+  float: right;
+}
+.toplist .scrollbar {
+  height: 238px;
+  padding: 0;
+}
+.toplist ul li {
+   margin: 15px 0;
+ }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+header {
+	padding : 15px 20px 15px 20px;
+}
+.midContentArea {
+	width : 556px;
+}
+.midContentInner {
+	margin : 40px auto;
+	width : 92%;
+	max-width : 630px;
+}
+.midContentAreaInner {
+	height : 100%;
+}
+.leftSide, .rightside {
+	width : 190px;
+}
+.feedLt {
+	width : 100%;
+	float : left;
+}
+.feedRt {
+	width : 100%;
+	margin : 15px 0;
+	float : left;
+}
+.feedconImg {
+	width : 100%;
+	float : right;
+}
+.feedconImg img {
+	display : block;
+	width : 100%;
+}
+.usenow {
+	float : left;
+	margin : 0;
+}
+.relatedboxRow {
+	display : block;
+}
+.boxcol {
+	width : 48%;
+	float : left;
+	margin-bottom : 20px;
+}
+.relatedboxRow .boxcol:nth-child(2), .relatedboxRow .boxcol:nth-child(4) {
+	float : right;
+}
+.cmsection {
+	float : right;
+	width : 100%;
+}
+
+.rrcol {
+  position: relative;
+  text-align: left;
+}
+.rrcol h3 {
+    margin: 6px 0 6px 60px;
+ }
+ 
+ .boxW75 {
+  width: 100%;
+  float: left;
+  margin:0 0 20px;
+}
+.boxW25 {
+  width: 100%;
+  float: right;
+}
+.lbCol {
+  width: 24%;
+}
+.listboxSec {
+ 
+  flex-flow: wrap;
+}
+.hoursave {
+  width: 100% !important;  
+  margin: 15px 0 0;
+}
+.lbCol img { 
+  width: 45px;
+}
+.lbCol h1 {
+  font-size: 21px;
+}
+.lbCol p{ font-size:12px;}
+.hoursave h1{ font-size:32px;}
+.hoursave p{ font-size:14px;}
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.leftSide {
+	width : 100%;
+	overflow : hidden;
+	padding : 40px 0;
+	margin : 0 auto;
+	float : left;
+}
+.leftInner {
+	width : 100%;
+	overflow : hidden;
+	float : right;
+}
+.topBluebtn {
+	text-align : center;
+}
+.topBluebtn a {
+	margin : 0 auto;
+}
+.leftNav ul {
+	margin : 35px 0 0;
+	padding : 0;
+	width : 100%;
+	display : block;
+	text-align : center;
+}
+.leftNav ul li {
+	display : inline-block;
+	list-style : none;
+	position : relative;
+	margin : 0 6px;
+	text-align : center;
+}
+.midContentArea {
+	width : 100%;
+	overflow : hidden;
+	position : relative;
+	float : left;
+}
+.midContentAreaInner {
+	border-left : none;
+	border-top : 1px solid #e7eaef;
+	border-right : none;
+	border-bottom : 1px solid #e7eaef;
+	height : 100vh;
+	width : 100%;
+	margin : 0 0;
+	float : left;
+}
+.rightside {
+	width : 100%;
+	overflow : hidden;
+	padding : 40px 0;
+	margin : 0 auto;
+	float : left;
+}
+.rightInner {
+	width : 100%;
+	overflow : hidden;
+}
+.profileCard {
+	width : 100%;
+}
+.boxcol {
+	width : 24%;
+}
+
+.rrcol {
+  position: relative;
+  text-align: left;
+}
+.rrcol h3 {
+    margin: 6px 0 6px 60px;
+ }
+ 
+  .boxW75 {
+  width: 100%;
+  float: left;
+  margin:0 0 20px;
+}
+.boxW25 {
+  width: 100%;
+  float: right;
+}
+
+.lbCol {
+  width: 24%;
+  padding: 20px 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-flow: column;
+text-align: center;
+}
+.listboxSec {
+ 
+  flex-flow: wrap;
+}
+.hoursave {
+  width: 100% !important;  
+  margin: 15px 0 0;
+}
+.lbCol img { 
+  width: 45px;
+  margin:0 auto;
+}
+.lbCol h1 {
+  font-size: 21px;
+}
+.lbCol p{ font-size:12px;}
+.hoursave h1{ font-size:32px;}
+.hoursave p{ font-size:14px;}
+.lbcolInner{ width:100%;}
+}
+@media (min-width: 140px) and (max-width: 991px) {
+header {
+	height : auto;
+	padding : 15px;
+}
+.hidedesktop {
+	display : block;
+}
+.hidemobo {
+	display : none;
+}
+.col-sm-40 {
+	flex : 0 0 auto;
+	width : 46%;
+}
+.col-sm-60 {
+	flex : 0 0 auto;
+	width : 54%;
+}
+.searchbox {
+	max-width : 100%;
+}
+.leftSide, .midContentAreaInner, .rightInner, .rightside {
+	height : auto;
+}
+.step {
+	position : relative;
+	top : 0;
+	left : 0;
+	font-weight : 500;
+	color : #5f6c79;
+}
+.adds, .topadds {
+	position : relative;
+	bottom : 10px;
+	left : 0;
+	display : none;
+}
+.viewcontent .step {
+	position : relative;
+	top : 0;
+}
+.shareInfo ul {
+	width : 100%;
+	text-align : center;
+}
+.shareInfo ul li {
+	display : inline-block;
+	clear : none;
+	margin : 8px;
+	text-align : center;
+}
+.feed-edit .leftSide {
+	display : none;
+}
+.cmwrap {
+	height : auto;
+	padding : 50px 0;
+}
+.cmsection {
+	float : none !important ;
+	width : 100% !important ;
+	text-align : center;
+}
+.linearea hr {
+	height : 1px;
+	width : 100%;
+	margin : 50px auto;
+}
+.wrapper {
+	width : 100%;
+	clear : both;
+	overflow : hidden;
+	height : auto;
+	padding : 0;
+}
+.dbnew {
+padding : 0;
+height : 100vh;
+}
+.footsideMenu {
+  margin-top: 100px;
+ }
+header {
+	position : relative;
+}
+.leftNav .scrollbar {
+	height : auto;
+	padding : 0;
+}
+.centercon .shareInfo {
+	height : auto;
+	float : left;
+}
+.backlink a {
+	margin : 0 10px 0 0;
+}
+.topuserinfo h1{ display:none;}
+.notificationcol {
+   margin: 6px 5px 6px 0;
+}
+.mobomenu a{ padding: 0 0 8px 6px;}
+.mobomenu{ display:block;}
+.leftSide {
+	 
+	float : left;
+	display:none;
+}
+#website-wrapper.active {
+ 
+  z-index: 9999999999999999999999999;
+}
+}
+@media (min-width: 140px) and (max-width: 480px) {
+header {
+	height : auto;
+	padding : 15px 0;
+}
+
+
+
+}
+
+@media (min-width: 140px) and (max-width: 580px) {
+.openlink .dropdown-menu {
+  position: absolute;
+  inset: 0px auto auto 0px;
+  margin: 0px;
+  transform: translate(120px, 54px) !important;
+  z-index: 99999;
+}
+.contentarea {
+   padding: 15px 10px;
+}
+.topTitleArea h2 {
+  font-size: 16px;
+}
+ 
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+.lbCol {
+  width: 49%;
+  padding: 20px 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-flow: column;
+text-align: center;
+margin:0 0 15px;
+}
+.listboxSec {
+ 
+  flex-flow: wrap;
+}
+.hoursave {
+  width: 100% !important;  
+  margin: 0 0 0;
+}
+.lbCol img { 
+  width: 45px;
+  margin:0 auto;
+}
+.lbCol h1 {
+  font-size: 21px;
+}
+.lbCol p{ font-size:12px;}
+.hoursave h1{ font-size:32px;}
+.hoursave p{ font-size:14px;}
+.lbcolInner{ width:100%;}
+
+}
+
+
+
+
+@media (min-width: 220px) and (max-width: 480px) {
+.lbCol {
+  width: 100%;
+  padding: 20px 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-flow: column;
+text-align: center;
+margin:0 0 15px;
+}
+.listboxSec {
+ 
+  flex-flow: wrap;
+}
+.hoursave {
+  width: 100% !important;  
+  margin: 0 0 0;
+}
+.lbCol img { 
+  width: 45px;
+  margin:0 auto;
+}
+.lbCol h1 {
+  font-size: 21px;
+}
+.lbCol p{ font-size:12px;}
+.hoursave h1{ font-size:32px;}
+.hoursave p{ font-size:14px;}
+.lbcolInner{ width:100%;}
+
+}
+@media (min-width: 200px) and (max-width: 767px) {
+.leftSide {
+	width : 100%;
+	overflow : hidden;
+	padding : 40px 0;
+	margin : 0 auto;
+	float : left;
+	display:none;
+}
+.leftInner {
+	width : 100%;
+	overflow : hidden;
+	float : right;
+}
+.topBluebtn {
+	text-align : center;
+}
+.topBluebtn a {
+	margin : 0 auto;
+}
+.leftNav{ 0}
+.leftNav ul {
+	margin :0 0 0 15px;
+	padding : 0;
+	width : 90%;
+	display : block;
+	text-align : center;
+}
+.leftNav ul li {
+	display : block;
+	list-style : none;
+	position : relative;
+	margin : 20px 6px;
+	text-align : center;
+}
+.midContentArea {
+	width : 100%;
+	overflow : hidden;
+	position : relative;
+	float : left;
+}
+.midContentAreaInner {
+	border-left : none;
+	border-top : 1px solid #e7eaef;
+	border-right : none;
+	border-bottom : 1px solid #e7eaef;
+	height : 100%;
+	width : 100%;
+	margin : 0 0;
+	float : left;
+}
+.rightside {
+	width : 100%;
+	overflow : hidden;
+	padding : 40px 0;
+	margin : 0 auto;
+	float : left;
+}
+.rightInner {
+	width : 100%;
+	overflow : hidden;
+}
+.profileCard {
+	width : 100%;
+}
+.midContentInner {
+	width : 100%;
+	max-width : 100%;
+}
+.feedLt {
+	width : 100%;
+	float : left;
+}
+.feedRt {
+	width : 100%;
+	float : left;
+}
+.feedconImg {
+	width : 100%;
+	float : right;
+	margin : 15px 0 0;
+}
+.usenow {
+	float : left;
+	margin : 20px 0;
+}
+.publishlist ul li {
+	margin : 0 0 0 5px;
+}
+.publishlist ul li a {
+	font-size : 0;
+	width : 40px;
+	background-position : 50% 50% !important ;
+	padding : 0;
+}
+.relatedboxRow {
+	display : block;
+}
+.boxcol {
+	width : 48%;
+	float : left;
+	margin-bottom : 20px;
+}
+.relatedboxRow .boxcol:nth-child(2), .relatedboxRow .boxcol:nth-child(4) {
+	float : right;
+}
+.viewcontent .step {
+	position : relative;
+	top : 0;
+}
+.actionbox ul li a {
+  font-size: 0;
+  background-position: center center !important;
+  padding: 0;
+  width: 30px;
+}
+
+.actionbox {
+  position: absolute;
+  top: 5px;
+  right: 60px;
+}
+.rrcol{ text-align:left;}
+.rrcol h3 {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 11px 0 11px 50px;
+  padding: 0;
+  color: #1d262e;
+}
+
+
+ .boxW75 {
+  width: 100%;
+  float: left;
+  margin:0 0 20px;
+  min-height: 100px;
+}
+.boxW25 {
+  width: 100%;
+  float: right;
+}
+.boxW50 {
+  width: 100%;
+  float: left;
+  margin:0 0 20px;
+  min-height: 100px;
+}
+
+}
